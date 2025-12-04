@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4 - Layer</title>
+    <defs>
+        <ellipse id="path-1" cx="727.5" cy="404.5" rx="41.5" ry="38.5"></ellipse>
+        <filter x="-5.4%" y="-5.8%" width="110.8%" height="111.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="2.5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-2" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.569519928   0 0 0 0 0.479698605   0 0 0 0 0.392641016  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Template---App-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4---Layer">
+            <g id="Oval">
+                <use fill="color(display-p3 1.000 0.973 0.941)" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+            <path d="M501.8,336 C519.933333,336 535.533333,342.6 548.6,355.8 C561.666667,369 568.2,384.666667 568.2,402.8 L568.2,436 C568.2,454.133333 561.666667,469.8 548.6,483 C535.533333,496.2 519.933333,502.8 501.8,502.8 L435,502.8 L435,636 L434.999,636 L435,687 L368.2,687 L368.2,632 L368.2,631.999 L368.2,336 Z M468.2,369.2 L435,369.2 L435,469.2 L468.2,469.2 C477.533333,469.2 485.466667,465.933333 492,459.4 C498.533333,452.866667 501.8,445.066667 501.8,436 L501.8,402.8 C501.8,393.466667 498.533333,385.533333 492,379 C485.466667,372.466667 477.533333,369.2 468.2,369.2 Z" id="Combined-Shape" fill="color(display-p3 0.000 0.000 0.000)"></path>
+        </g>
+    </g>
+</svg>

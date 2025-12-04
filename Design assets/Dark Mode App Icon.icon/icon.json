@@ -1,0 +1,78 @@
+{
+  "fill" : {
+    "solid" : "display-p3:0.00000,0.00000,0.00000,1.00000"
+  },
+  "groups" : [
+    {
+      "blur-material" : null,
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "fill" : {
+            "solid" : "srgb:1.00000,1.00000,1.00000,1.00000"
+          },
+          "glass" : false,
+          "image-name" : "Oval.svg",
+          "name" : "Oval",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              162.40625,
+              -107.6953125
+            ]
+          }
+        },
+        {
+          "glass" : false,
+          "image-name" : "Combined Shape.svg",
+          "name" : "Combined Shape",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -93.1640625,
+              -0.0625
+            ]
+          }
+        },
+        {
+          "glass" : false,
+          "image-name" : "3 - Layer.svg",
+          "name" : "3 - Layer",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -29.1796875,
+              -2.2265625
+            ]
+          }
+        },
+        {
+          "fill" : "automatic",
+          "glass" : true,
+          "image-name" : "Rectangle 3.svg",
+          "name" : "Rectangle 3"
+        }
+      ],
+      "lighting" : "individual",
+      "position" : {
+        "scale" : 1,
+        "translation-in-points" : [
+          17.30747460673169,
+          5.816235902707312
+        ]
+      },
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.56
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : "shared"
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="102px" viewBox="0 0 116 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>TransparentLogo</title>
+    <defs>
+        <ellipse id="path-1" cx="77.904185" cy="38.4746696" rx="4.66189427" ry="4.32488987"></ellipse>
+        <filter x="-5.4%" y="-5.8%" width="110.7%" height="111.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.336107337   0 0 0 0 0.336107337   0 0 0 0 0.336107337  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Zoe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Welcome-v3" transform="translate(-140, -202)">
+            <g id="TransparentLogo" transform="translate(140, 202)">
+                <path d="M48.1491136,20.7819383 L72.2574467,20.7819383 C82.431026,20.7819383 91.3605284,27.554835 94.1033196,37.3517125 C96.0465841,44.292789 91.9950569,51.4949704 85.0539805,53.4382348 C83.9086163,53.7588977 82.7247937,53.9214868 81.5353889,53.9214868 L72.0669716,53.9214868 L72.0669716,53.9214868 L67.1059065,78.6846809 L65.2544215,80.6563877 L47.9980283,80.6563877 C33.7286447,80.6563877 22.1610239,69.0887668 22.1610239,54.8193833 C22.1610239,54.660726 22.1624853,54.502072 22.1654079,54.3434417 L22.3164932,46.1430011 C22.575931,32.061532 34.0652548,20.7819383 48.1491136,20.7819383 Z" id="Rectangle-3"></path>
+                <g id="Oval">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle" x="46.5066079" y="53.9207048" width="15.1651982" height="2.02202643"></rect>
+                <rect id="Rectangle" x="46.5066079" y="68.7488987" width="15.1651982" height="2.02202643"></rect>
+                <rect id="Rectangle" x="46.5066079" y="65.0418502" width="15.1651982" height="2.02202643"></rect>
+                <rect id="Rectangle" x="46.5066079" y="61.3348018" width="15.1651982" height="2.02202643"></rect>
+                <rect id="Rectangle" x="46.5066079" y="57.6277533" width="15.1651982" height="2.02202643"></rect>
+                <path d="M36.5773387,64.592511 L44.0953886,64.592511 L44.0953886,70.7709251 L36.5773387,70.7709251 Z M44.074303,64.4471366 L44.074303,49.484141 L51.5782678,49.484141 C53.6152722,49.484141 55.3676951,48.7427313 56.8355365,47.2599119 C58.3033779,45.7770925 59.0372986,44.0171806 59.0372986,41.9801762 L59.0372986,38.2506608 C59.0372986,36.2136564 58.3033779,34.4537445 56.8355365,32.9709251 C55.3676951,31.4881057 53.6152722,30.746696 51.5782678,30.746696 L36.5703383,30.746696 L36.5703383,64.4471366 L44.074303,64.4471366 Z M47.8038184,45.7096916 L44.074303,45.7096916 L44.074303,34.4762115 L47.8038184,34.4762115 C48.8522766,34.4762115 49.743466,34.8431718 50.4773867,35.5770925 C51.2113074,36.3110132 51.5782678,37.2022026 51.5782678,38.2506608 L51.5782678,41.9801762 C51.5782678,42.9986784 51.2113074,43.8748899 50.4773867,44.6088106 C49.743466,45.3427313 48.8522766,45.7096916 47.8038184,45.7096916 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
